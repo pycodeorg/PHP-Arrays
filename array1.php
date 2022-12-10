@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <body>
 
-<?php
+    <?php
 
-$colors=array('white', 'green', 'red');
-sort($colors);
-echo "<ul>";
-foreach($colors as  $data){
-echo "<li>$data</li>";
-}
-echo "</ul>";
+    $colors = array('white', 'green', 'red');
+    sort($colors);
+    echo "<ul>";
+    foreach ($colors as  $data) {
+        echo "<li>$data</li>";
+    }
+    echo "</ul>";
 
-?> 
+    ?>
 
 </body>
+
 </html>
